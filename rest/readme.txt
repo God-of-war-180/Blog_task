@@ -54,7 +54,7 @@ create a jwt token by using:
 }
 
 
-enter the credentials and get the 'access token'
+enter the credentials and get the 'access token'.
 
 
 go to "mode header extention " > "requestheaders" and enter those access tokens with the prefix of JWT
