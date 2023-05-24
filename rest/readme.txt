@@ -11,20 +11,26 @@ source env/bin/activate
 # for Windows
 env/Source/activate
 
-Install the dependencies using command : pip install -r requirements.txt
+Install the dependencies using command : 
+	
+	pip install -r requirements.txt
 
 Type source env/bin/activate
 
-Run the server using command: python manage.py makemigrations
+Run the server using command:
 
-Then run the server using command: python manage.py migrate
+	python manage.py makemigrations
 
-Finally run the server using command: python manage.py runserver
+Then run the server using command: 
+
+	python manage.py migrate
+
+Finally run the server using command: 
+
+	python manage.py runserver
 	
 kindly add "modheader" extention to authentication :
 	https://chrome.google.com/webstore/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj
-	
-
 
 create a user from and get access token from 
 
@@ -55,6 +61,8 @@ go to "mode header extention " > "requestheaders" and enter those access tokens 
 
 
 Authorization   and JWT & value
+
+and refresh you will get to the authenticated website.
 
 
 
